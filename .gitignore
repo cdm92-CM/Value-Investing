@@ -1,0 +1,10 @@
+# Ignore the virtual environment
+venv/
+__pycache__/
+
+# Ignore your private credentials
+.env
+
+# Ignore local data files and logs
+*.csv
+.DS_Store
