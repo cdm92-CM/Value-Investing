@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 # --- CORE LOGIC IMPORTS ---
 from master_pipeline import get_major_indices_tickers, run_screener
-from winning_tickets import generate_winning_tickets
+from archive.winning_tickets import generate_winning_tickets
 
 # Load credentials from .env
 load_dotenv()

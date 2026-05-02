@@ -4,7 +4,7 @@ from datetime import datetime
 import pandas as pd
 import os
 from master_pipeline import get_major_indices_tickers, run_screener
-from winning_tickets import generate_winning_tickets
+from archive.winning_tickets import generate_winning_tickets
 
 def run_weekly_sweep():
     """Weekly scanning function for value opportunities in S&P 500 and TSX 60."""
